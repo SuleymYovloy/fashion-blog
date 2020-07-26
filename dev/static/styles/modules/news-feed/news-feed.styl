@@ -1,0 +1,430 @@
+.news-feed
+	padding-top 60px
+	display flex
+
+	&__main
+		display block
+
+	&__main-posts
+		display flex
+		width 770px
+		flex-wrap wrap
+		justify-content space-between
+		margin 0 200px 30px 0	
+
+	&__main-post
+		width 370px
+		-webkit-box-shadow: 0px 3px 6px -1px rgba(224,220,224,1);
+		-moz-box-shadow: 0px 3px 6px -1px rgba(224,220,224,1);
+		box-shadow: 0px 3px 6px -1px rgba(224,220,224,1);
+		margin-bottom 30px
+		&:hover
+			-webkit-box-shadow: 0px 1px 8px 3px rgba(224,220,224,1);
+			-moz-box-shadow: 0px 1px 8px 3px rgba(224,220,224,1);
+			box-shadow: 0px 1px 8px 3px rgba(224,220,224,1);
+			transition 	all 0.2s ease 0.2s
+
+	&__main-big-post
+		-webkit-box-shadow: 0px 3px 6px -1px rgba(224,220,224,1);
+		-moz-box-shadow: 0px 3px 6px -1px rgba(224,220,224,1);
+		box-shadow: 0px 3px 6px -1px rgba(224,220,224,1);
+		margin-bottom 30px
+		&:hover
+			-webkit-box-shadow: 0px 1px 8px 3px rgba(224,220,224,1);
+			-moz-box-shadow: 0px 1px 8px 3px rgba(224,220,224,1);
+			box-shadow: 0px 1px 8px 3px rgba(224,220,224,1);
+			transition 	all 0.2s ease 0.2s		
+
+	&__main-big-post
+		width 770px
+		-webkit-box-shadow: 0px 3px 6px -1px rgba(224,220,224,1);
+		-moz-box-shadow: 0px 3px 6px -1px rgba(224,220,224,1);
+		box-shadow: 0px 3px 6px -1px rgba(224,220,224,1);
+		margin-bottom 30px	
+
+	&__main-post-name
+		font-family 'PT Sans'
+		font-style normal
+		font-weight normal
+		font-size 14px
+		line-height 16px
+		text-transform uppercase
+		color $dull-gold
+		text-align center
+		padding 15px 0 6px 0	
+
+	&__main-post-title
+		font-family 'PT Serif'
+		font-style normal
+		font-weight normal
+		font-size 20px
+		line-height 28px
+		text-align center
+		color $gray-900;
+		padding 0 56px 0 56px
+
+	&__main-post-employment
+		text-align center
+		font-family 'PT Serif'	
+		font-size 12px
+		line-height 16px
+		font-style normal
+		font-weight normal
+		color $gray-700
+		padding 10px 0 14px 0
+
+	&__main-post-employment span
+		color $gray-600
+		padding-left 5px	
+
+	&__main-big-post-name
+		font-family 'PT Sans'
+		font-style normal
+		font-weight normal
+		font-size 14px
+		line-height 16px
+		text-transform uppercase
+		color $dull-gold
+		padding 25px 0 6px 0	
+
+	&__main-big-post-title
+		font-family 'PT Serif'
+		font-style normal
+		font-weight normal
+		font-size 20px
+		line-height 28px
+		color $gray-900;
+
+	&__main-big-post-employment
+		font-family 'PT Serif'	
+		font-size 12px
+		line-height 16px
+		font-style normal
+		font-weight normal
+		color $gray-700
+		padding 12px 0 14px 0	
+
+	&__main-big-post-employment span 
+		color $gray-600
+		padding-left 5px	
+
+	&__main-big-post-text
+		font-family 'PT Sans'
+		font-size 14px
+		line-height 24px
+		font-weight normal
+		font-style normal
+		color $gray-600
+		padding-bottom 25px
+
+	&__main-big-post-descr
+		padding-left 30px		
+
+	&__main-pagination
+		border 1px solid $gray-200
+		width 510px
+		height 50px
+		margin 0 0 80px 135px
+
+
+	&__main-paginators
+		display flex	
+		align-items center
+		justify-content space-around
+
+	&__main-paginators-paginator
+		font-size 16px
+		line-height 16px
+		font-family 'PT Sans' 
+		color $gray-900	
+		
+	&__main-paginators-prev-arrow
+		display inline-block
+		border 1px solid $gray-400
+		padding 11px 10px 13px 10px
+		height 40px
+		border-radius 3px
+		font-size 14px
+		line-height 16px
+		font-family 'PT Sans'
+		text-transform uppercase
+		color $gray-300		
+
+	&__main-paginators-next-arrow
+		display inline-block
+		border 1px solid $gray-400
+		padding 11px 10px 13px 10px
+		height 40px
+		margin-left 9px
+		border-radius 3px
+		font-size 14px
+		line-height 16px
+		font-family 'PT Sans'
+		text-transform uppercase
+		color $gray-300	
+		
+
+	&__main-paginators-prev-icon
+		width 18px
+		height 18px
+		fill $gray-800
+		font-weight bold
+		float left
+		padding-bottom 1px
+		&:hover
+			fill $black
+
+	&__main-paginators-next-icon
+		width 18px
+		height 18px
+		fill $gray-800
+		font-weight bold
+		float right
+		padding-bottom 1px
+		&:hover
+			fill $black		
+
+		
+
+	&__side
+		width 21%
+
+	&__side-author
+		-webkit-box-shadow: 0px 3px 6px -1px rgba(224,220,224,1);
+		-moz-box-shadow: 0px 3px 6px -1px rgba(224,220,224,1);
+		box-shadow: 0px 3px 6px -1px rgba(224,220,224,1);
+		
+
+	&__side-author img 
+		width 100%	
+
+	&__side-author-name
+		border 1px solid $gray-300	
+		padding 15px 74px 15px 74px	
+		font-family 'PT Serif'
+		font-style normal
+		font-weight normal
+		font-size 18px
+		line-height 21px
+		text-align center
+		color $gray-900
+		margin-bottom 20px
+
+	&__side-author-title
+		font-family 'PT Serif'
+		font-style normal
+		font-weight bold
+		font-size 16px
+		line-height 21px
+		color $gray-900
+		text-align center
+		padding 20px 0 4px 0
+		
+
+	&__side-author-employment
+		text-align center
+		font-family 'PT Serif'
+		font-style italic
+		font-weight normal
+		font-size 14px
+		line-height 19px 
+		color $gray-600
+		padding-bottom 15px
+
+	&__side-author-text
+		font-family 'PT Sans'
+		font-style normal
+		font-weight normal
+		font-size 14px
+		line-height 24px
+		text-align center
+		color $gray-800
+		padding 0 20px 14px 20px 	
+
+	&__side-author-link-title
+		text-transform uppercase
+		color $dull-gold
+		font-family 'PT Serif'	
+		font-style normal
+		font-weight normal
+		font-size 12px
+		line-height 16px
+		text-align center
+		border-top 1px solid $gray-300
+		padding 12px 0px 12px 0
+
+
+	&__side-posts-name
+		margin-top 70px	
+		border 1px solid $gray-300	
+		padding 15px 74px 15px 74px	
+		font-family 'PT Serif'
+		font-style normal
+		font-weight normal
+		font-size 18px
+		line-height 21px
+		text-align center
+		color $gray-900
+		margin-bottom 20px
+
+	&__side-post-img
+		width 100%	
+		
+	&__side-post
+		-webkit-box-shadow: 0px 3px 6px -1px rgba(224,220,224,1);
+		-moz-box-shadow: 0px 3px 6px -1px rgba(224,220,224,1);
+		box-shadow: 0px 3px 6px -1px rgba(224,220,224,1);
+		margin-bottom 30px
+		&:hover
+			-webkit-box-shadow: 0px 1px 8px 3px rgba(224,220,224,1);
+			-moz-box-shadow: 0px 1px 8px 3px rgba(224,220,224,1);
+			box-shadow: 0px 1px 8px 3px rgba(224,220,224,1);
+			transition 	all 0.2s ease 0.2s	
+
+	&__side-post-name
+		text-align center
+		font-family 'PT Sans'
+		font-style normal
+		font-weight normal
+		font-size 12px
+		line-height 16px
+		text-transform uppercase
+		color $dull-gold
+		padding-top 15px	
+
+	&__side-post-title
+		font-family 'PT Serif'
+		font-style normal
+		font-weight normal
+		font-size 18px 
+		line-height 26px 
+		padding 4px 17px 10px 17px 
+		text-align center
+		color $gray-900	
+
+	&__side-post-employment
+		font-family 'PT Serif'
+		font-weight normal
+		font-style normal
+		text-align center
+		color $gray-700
+		padding-bottom 14px		
+
+	&__side-post-employment span 
+		color $gray-600
+		padding-left 5px	
+
+	&__side-categories-name 
+		font-family 'PT Serif'
+		font-size 16px
+		line-height 21px
+		font-style normal
+		font-weight normal
+		color $gray-900
+		text-align center
+		border 1px solid $gray-300
+		padding 13px 0 13px 0
+		margin 70px 0 5px 0
+
+	&__side-categories
+		display block
+
+	&__side-category
+		font-family 'PT Serif'
+		font-style normal
+		font-weight normal
+		font-size 16px
+		line-height 19px
+		color $gray-700		
+		display block
+		border-bottom 1px solid $gray-200	
+		padding 15px 0 15px 0
+		&:last-child
+			border none
+			padding-bottom 0
+		&:hover	
+			color $dull-gold
+
+	&__side-category span 
+		float right		
+
+	&__side-socials
+		display flex
+		flex-wrap wrap	
+		padding-top 20px
+		justify-content space-between
+
+	&__side-socials-name
+		font-family 'PT Serif'
+		font-size 16px
+		line-height 21px
+		font-style normal
+		font-weight normal
+		color $gray-900
+		text-align center
+		border 1px solid $gray-300
+		padding 13px 0 13px 0
+		margin-top 70px	
+
+	&__side-socials-icon
+		display block
+		width 88px
+		height 88px
+		background-color $gray-400	
+		margin-bottom 5px
+
+	&__side-socials-icon-img
+		transform translateX(36px)
+		padding 16px 0 6px 0
+
+	&__side-socials-icon-text
+		display flex
+		flex-wrap wrap
+		justify-content center
+		padding 0 26px 0px 28px 
+		font-size 12px
+		font-style normal
+		font-weight normal
+		line-height 16px
+		color $gray-800
+
+	&__side-socials-icon p
+		display flex
+		flex-wrap wrap
+		justify-content center
+		font-size 12px
+		font-style normal
+		font-weight normal
+		line-height 16px
+		color $gray-800	
+
+	&__side-tags-name
+		font-family 'PT Serif'
+		font-size 16px
+		line-height 21px
+		font-style normal
+		font-weight normal
+		color $gray-900
+		text-align center
+		border 1px solid $gray-300
+		padding 13px 0 13px 0
+		margin-top 70px	
+
+	&__side-tags
+		display flex
+		flex-wrap wrap	
+		justify-content space-between
+
+	&__side-tag	
+		font-size 14px
+		font-style normal
+		font-weight 50
+		line-height 18px
+		color $gray-700	
+		background $gray-400
+		margin-top 15px
+		padding 7px 17px 5px 17px
+		border-radius 3px 	
+
+
+		
