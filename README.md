@@ -7,4 +7,4 @@
 2. `gulp`
 
 ## Cвязь
-- [в телеграм](https://t.me/gapur)
+- [в телеграм](https://t.me/GoeEvloev)
